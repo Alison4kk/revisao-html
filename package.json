@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "push-dist": "git subtree push --prefix dist https://github.com/Alison4kk/revisao-html.git gh-pagess.map"
+    "push-dist": "git subtree push --prefix dist https://github.com/Alison4kk/revisao-html.git gh-pages"
   },
   "dependencies": {
     "core-js": "^3.8.3",
