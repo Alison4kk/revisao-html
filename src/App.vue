@@ -44,6 +44,11 @@ nav {
   a {
     font-weight: bold;
     color: #2c3e50;
+    text-decoration: none;
+
+    &:hover {
+      color: #358eab;
+    }
 
     &.router-link-exact-active {
       color: #358eab;
