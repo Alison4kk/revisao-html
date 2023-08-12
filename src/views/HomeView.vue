@@ -1,18 +1,10 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+  <div>
+    <p>Bem vindo ao trabalho, navegue usando os links abaixo:</p>
+    <nav>
+      <router-link to="/0-catalogo">0 - Catalogo de Produtos</router-link>
+      <router-link to="/about">1 - Titulo</router-link>
+    </nav>
   </div>
 </template>
 
-<script lang="ts">
-import Vue from 'vue';
-import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
-
-export default Vue.extend({
-  name: 'HomeView',
-  components: {
-    HelloWorld,
-  },
-});
-</script>

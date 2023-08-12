@@ -1,12 +1,30 @@
 <template>
   <div id="app">
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
+    <h1>Trabalho Revisão HTML</h1>
+    <BackToHomeButtonVue v-if="!isHome"/>
     <router-view/>
   </div>
 </template>
+
+<script lang="ts">
+import { defineComponent } from 'vue'
+import BackToHomeButtonVue from './components/BackToHomeButton.vue'
+
+export default defineComponent({
+  setup() {
+    return {}
+  },
+  components: {
+    BackToHomeButtonVue
+  },
+  computed: {
+    isHome: function() {
+      return this.$route.name == 'home'
+    }
+  }
+})
+</script>
+
 
 <style lang="scss">
 #app {
@@ -19,13 +37,16 @@
 
 nav {
   padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 
   a {
     font-weight: bold;
     color: #2c3e50;
 
     &.router-link-exact-active {
-      color: #42b983;
+      color: #358eab;
     }
   }
 }
