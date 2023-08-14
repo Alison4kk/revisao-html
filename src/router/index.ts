@@ -5,6 +5,7 @@ import Catalogo1View from '../views/Catalogo1View.vue'
 import Titulos1View from '../views/Titulos1View.vue'
 import FormatosTexto2View from '../views/FormatosTexto2View.vue'
 import ItemsFormatados3View from '../views/ItemsFormatados3View.vue'
+import Formulario8View from '../views/Formulario8View.vue'
 
 Vue.use(VueRouter)
 
@@ -14,6 +15,7 @@ const routes: Array<RouteConfig> = [
   {path: '/1-titulos', component: Titulos1View},
   {path: '/2-fomratos-texto',  component: FormatosTexto2View},
   {path: '/3-itens-formatados', component: ItemsFormatados3View},
+  {path: '/8-formulario', component: Formulario8View},
 ]
 
 const router = new VueRouter({
