@@ -1,8 +1,10 @@
-<template>
+  <template>
   <div id="app">
     <h1>Trabalho Revisão HTML</h1>
     <BackToHomeButtonVue v-if="!isHome"/>
-    <router-view/>
+    <div class="container">
+      <router-view/>
+    </div>
   </div>
 </template>
 
@@ -33,6 +35,12 @@ export default defineComponent({
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+
+.container {
+  text-align: start;
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 nav {

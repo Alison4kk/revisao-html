@@ -35,7 +35,7 @@
 </template>
 
 
-<style>
+<style scoped>
 * {
   font-family: Arial, Helvetica, sans-serif;
 }
