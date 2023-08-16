@@ -1,8 +1,9 @@
   <template>
   <div id="app">
     <h1>Trabalho Revisão HTML</h1>
-    <BackToHomeButtonVue v-if="!isHome"/>
     <div class="container">
+      <BackToHomeButtonVue v-if="!isHome"/>
+      <hr>
       <router-view/>
     </div>
   </div>

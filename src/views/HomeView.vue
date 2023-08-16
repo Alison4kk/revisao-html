@@ -31,6 +31,8 @@
       <router-link to="/11-pagina">12 - Minha primeira Pagina WEB</router-link>
       <router-link to="/13-pagina">13 - Minha segunda Pagina WEB</router-link>
       <router-link to="/14-pagina">14 - Minha terceira Pagina WEB</router-link>
+      <router-link to="/15-pagina">15 - Figuras</router-link>
+      <router-link to="/16-pagina">16 - Arrumar HTML</router-link>
 
     </nav>
   </div>

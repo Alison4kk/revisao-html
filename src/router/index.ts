@@ -12,11 +12,13 @@ import Formulario10View from '../views/Formulario10View.vue'
 import Formulario11View from '../views/Formulario11View.vue'
 import Formulario13View from '../views/Formulario13View.vue'
 import Formulario14View from '../views/Formulario14View.vue'
+import Formulario15View from '../views/Formulario15View.vue'
+import Formulario16View from '../views/Formulario16View.vue'
 
 Vue.use(VueRouter)
 
 const routes: Array<RouteConfig> = [
-  {path: '/', name: 'home', component: HomeView},
+  {path: '/', name: 'home' ,component: HomeView},
   {path: '/0-catalogo', component: Catalogo1View},
   {path: '/1-titulos', component: Titulos1View},
   {path: '/2-fomratos-texto',  component: FormatosTexto2View},
@@ -28,6 +30,8 @@ const routes: Array<RouteConfig> = [
   {path: '/11-pagina', component: Formulario11View},
   {path: '/13-pagina', component: Formulario13View},
   {path: '/14-pagina', component: Formulario14View},
+  {path: '/15-pagina', component: Formulario15View},
+  {path: '/16-pagina', component: Formulario16View},
 ]
 
 const router = new VueRouter({
