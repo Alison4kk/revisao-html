@@ -36,6 +36,7 @@
       <router-link to="/17-pagina">17 - Dados Pessoais</router-link>
       <router-link to="/18-pagina">18 - Tabela</router-link>
       <router-link to="/full/19-pagina">19 - Pagina 1</router-link>
+      <router-link to="/full/20-pagina">20 - Pagina Bolos</router-link>
 
     </nav>
   </div>

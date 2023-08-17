@@ -17,6 +17,7 @@ import Formulario16View from '../views/Formulario16View.vue'
 import Formulario17View from '../views/Formulario17View.vue'
 import Formulario18View from '../views/Formulario18View.vue'
 import Formulario19View from '../views/Formulario19View.vue'
+import Formulario20View from '../views/Formulario20View.vue'
 
 Vue.use(VueRouter)
 
@@ -38,6 +39,7 @@ const routes: Array<RouteConfig> = [
   {path: '/17-pagina', component: Formulario17View},
   {path: '/18-pagina', component: Formulario18View},
   {path: '/full/19-pagina', component: Formulario19View},
+  {path: '/full/20-pagina', component: Formulario20View},
 ]
 
 const router = new VueRouter({
