@@ -1,10 +1,15 @@
   <template>
   <div id="app">
-    <h1>Trabalho Revisão HTML</h1>
-    <div class="container">
-      <BackToHomeButtonVue v-if="!isHome"/>
-      <hr>
-      <router-view/>
+    <div v-if="isFullPage">
+        <router-view/>
+    </div>
+    <div v-else>
+      <h1>Trabalho Revisão HTML</h1>
+      <div class="container">
+        <BackToHomeButtonVue v-if="!isHome"/>
+        <hr>
+        <router-view/>
+      </div>
     </div>
   </div>
 </template>
@@ -23,6 +28,9 @@ export default defineComponent({
   computed: {
     isHome: function() {
       return this.$route.name == 'home'
+    },
+    isFullPage: function() {
+      return this.$route.fullPath.split('/')[1] == 'full';
     }
   }
 })

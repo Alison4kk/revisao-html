@@ -33,6 +33,9 @@
       <router-link to="/14-pagina">14 - Minha terceira Pagina WEB</router-link>
       <router-link to="/15-pagina">15 - Figuras</router-link>
       <router-link to="/16-pagina">16 - Arrumar HTML</router-link>
+      <router-link to="/17-pagina">17 - Dados Pessoais</router-link>
+      <router-link to="/18-pagina">18 - Tabela</router-link>
+      <router-link to="/full/19-pagina">19 - Pagina 1</router-link>
 
     </nav>
   </div>
