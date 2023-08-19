@@ -37,6 +37,8 @@
       <router-link to="/18-pagina">18 - Tabela</router-link>
       <router-link to="/full/19-pagina">19 - Pagina 1</router-link>
       <router-link to="/full/20-pagina">20 - Pagina Bolos</router-link>
+      <router-link to="/full/19-pagina">21 - Pagina</router-link>
+      <router-link to="/full/20-pagina">23 - Pagina</router-link>
 
     </nav>
   </div>
