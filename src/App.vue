@@ -5,7 +5,7 @@
     </div>
     <div v-else>
       <h1>Trabalho Revisão HTML</h1>
-      <div class="container">
+      <div class="container-small">
         <BackToHomeButtonVue v-if="!isHome"/>
         <hr>
         <router-view/>
@@ -46,7 +46,7 @@ export default defineComponent({
   color: #2c3e50;
 }
 
-.container {
+.container-small {
   text-align: start;
   max-width: 700px;
   margin: 0 auto;
